@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@300;400;500;600;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Zilla Slab', serif;
+}
+:root{
+    --main-color: linear-gradient(to right, #F27A54, #A154F2);
+}
+.nav_hov ul .active{
+    position: relative;
+}
+.nav_hov ul .active::after{
+    content: '';
+    height: 2px;
+    width: 80%;
+    position: absolute;
+    bottom: -5px; 
+    left: 50%;
+    transform: translateX(-50%);
+    background: var(--main-color);
+    transition: width 0.2s;
+} 
+.navbar-expand-lg .navbar-nav .nav-link {
+	padding-right: 1rem;
+	padding-left: 1rem;
+}
+.flex a{
+    text-decoration: none;
+}
+.flex a:hover{
+    color: #fff;
+}
+.custom_btn{
+    padding: 6px 20px;
+    background:transparent;
+    border-radius: 20px; 
+    color: #fff;
+    font-weight: 600; 
+    border: 2px solid #fff;
+    margin-left: 30px;
+}
+.custom_btn1{
+    padding: 8px 20px;
+    background-image:  linear-gradient(to right, #F27A54, #A154F2);
+    border-radius: 20px; 
+    color: #fff;
+    font-weight: 600;
+    border: none; 
+    margin-left: 10px;  
+}
+
+/* hero */
+
+.hero{
+    background-color: #3C444C;
+}
+.txt_box h1{
+    text-align: center;
+    color: #fff;
+}
+.txt_box {
+    text-align: center;
+    color: #fff;
+    margin-top: 100px;
+}
+.main_form{
+    max-width: 600px;
+    margin: 0 auto;
+}
+/* .message{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.msg_box{
+    width: 49%;
+} */
+.msg_box input {
+	width: 100%;
+	outline: none;
+	border: none;
+	padding: 10px;
+	border-radius: 7px;
+}
+label{
+    color: #CBCFD4;
+    padding: 5px 2px;
+}
+
+.forgot{
+    margin-top: 20px;
+    color: #CBCFD4;
+}
+.forgot span{
+    color: #A154F2;
+}
+
+.sent_btn{
+    text-align: right;
+    margin-top: 30px;
+}
+
+/* footer */
+
+
+.footer{
+    margin-top: 300px;
+}
+.logo_sec p{
+    color: #fff;
+    margin-top: 30px;
+}
+.footer-row{
+    display: flex;
+    justify-content: center;
+}
+.footer-menu p{
+    color: #fff;
+}
+.footer-menu h6 a{
+    text-decoration: none;
+    color: #CBCFD4;
+}
+.logo{
+    display: flex;
+}
+.logo i{
+    color: #A154F2;
+    margin-right: 8px;
+}
+.logo h6 a{
+    text-decoration: none;
+    color: #CBCFD4;
+}
+.last_sec{
+    margin-top: 30px;
+    padding: 10px;
+   }
+.last_sec h6{
+    color: #fff;
+    font-size: 14px;
+}
+
