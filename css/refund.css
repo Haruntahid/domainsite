@@ -57,6 +57,7 @@
 
 .hero{
     background-color: #3C444C;
+    padding-bottom: 200px;
 }
 .txt_box h1{
     text-align: center;
@@ -77,17 +78,14 @@
 
 
 .footer{
-    margin-top: 300px;
+    padding-top: 50px;
 }
 .logo_sec p{
     color: #fff;
     margin-top: 30px;
 }
-.footer-row{
-    display: flex;
-    justify-content: space-between;
-}
-.footer-menu p{
+
+.footer-menu h5{
     color: #fff;
 }
 .footer-menu h6 a{
@@ -106,11 +104,55 @@
     color: #CBCFD4;
 }
 .last_sec{
-    margin-top: 30px;
     padding: 10px;
-   }
+ padding-top: 30px;
+ 
+}
 .last_sec h6{
     color: #fff;
     font-size: 14px;
 }
 
+/* responsive */
+
+@media(max-width: 767px){
+    .check_btn {
+        padding: 9px 7px;
+        background-image: linear-gradient(to right, #F27A54, #A154F2);
+        color: #fff;
+        font-weight: 600;
+        border: none;
+        font-size: 12px;
+    }
+    .footer{
+        /* margin-top: 50px; */
+        text-align: center;
+    }
+    .logo{
+        display: flex;
+        justify-content: center;
+    }
+    .footer-menu{
+        margin-top: 20px;
+    }
+
+}
+
+@media(max-width: 575px){
+    .input_field {
+        flex-direction: column;
+    }
+    .check_dom {
+        width: 100%;
+    }
+    .title_txt {
+        padding: 50px 10px;
+    }
+    .footer{
+        /* margin-top: 50px; */
+    }
+    .whyus {
+        margin-top: 50px;
+        padding-bottom: 50px;
+    }
+}

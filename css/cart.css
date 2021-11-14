@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@300;400;500;600;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Zilla Slab', serif;
+}
+:root{
+    --main-color: linear-gradient(to right, #F27A54, #A154F2);
+}
+.nav_hov ul .active::after{
+    content: '';
+    height: 2px;
+    width: 80%;
+    position: absolute;
+    bottom: -5px; 
+    left: 50%;
+    transform: translateX(-50%);
+    background: var(--main-color);
+    transition: width 0.2s;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+	padding-right: 1rem;
+	padding-left: 1rem;
+}
+
+.cart_price{
+    display: flex;
+    align-items: center;
+    color:#fff;
+    padding: 0.5rem 1rem;
+}
+.profile{
+    display: flex;
+    align-items: center;
+    color: #fff;
+    padding: 0.5rem 1rem;
+}
+.profile img{
+    border-radius: 50%;
+}
+/* hero */
+
+
+.hero{
+    background-color: #3C444C;
+    padding-bottom: 200px;
+}
+.txt_box p{
+    color: #CBCFD4;
+    margin-top: 20px;
+    font-size: 18px;
+}
+.note1{
+ color: #F27A54; 
+ font-weight: 600; 
+}
+.note{
+ color: #F27A54;   
+}
+.dif{
+    color: #A154F2;
+}
+table{
+    width: 100%;
+    background-color: #fff;
+}
+th{
+    color: #A154F2;
+}
+.table_wrapper{
+    padding: 10px;
+    background-color: #fff;
+    margin-top: 30px;
+}
+
+.cstm_btn{
+    padding: 0px 6px;
+    background-color: #A154F2;
+    border: none;
+}
+.cstm_btn1{
+    margin-left: 5px;
+    padding: 0px 6px;
+    background-color: #ec5840;
+    border: none;
+}
+.txt a{
+text-decoration: none;
+font-weight: 600;
+}
+.btn_sec {
+	text-align: right;
+}
+
+
+/* footer */
+
+.footer{
+    padding-top: 50px;
+}
+.logo_sec p{
+    color: #fff;
+    margin-top: 30px;
+}
+
+
+.footer-menu h5{
+    color: #fff;
+}
+.footer-menu h6 a{
+    text-decoration: none;
+    color: #CBCFD4;
+}
+.logo{
+    display: flex;
+}
+.logo i{
+    color: #A154F2;
+    margin-right: 8px;
+}
+.logo h6 a{
+    text-decoration: none;
+    color: #CBCFD4;
+}
+.last_sec{
+    padding: 10px;
+ padding-top: 30px;
+ 
+}
+.last_sec h6{
+    color: #fff;
+    font-size: 14px;
+}
